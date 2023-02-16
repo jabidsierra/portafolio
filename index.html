@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
+    <header class="header">
+      <nav class="navbar grid--container">
+        <a class="navbar__logo" href="#"
+          ><i class='bx bxl-javascript' ></i> Jabid S.</a
+        >
+
+        <div id="nav" class="navbar__menu">
+          <a href="#close"><i class="bx bx-x btn__close navbar__icon"></i></a>
+
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a  class="navbar__link" href="#home">Inicio</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#about">Sobre mí</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#projects">Portafolio</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
+      </nav>
+    </header>
+
+    <main>
+      
+      <section id="home" class="home">
+        <div class="home__container grid--container">
+          <div class="home__image">
+            <span></span>
+            <img src="assets\img\1676508790968-removebg-preview.png" alt="profile photo" />
+          </div>
+
+          <ul class="home__social">
+            <li class="home__social-item">
+              <a class="home__social-link" href="#"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </li>
+            <li class="home__social-item">
+              <a class="home__social-link" href="#"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+            <li class="home__social-item">
+              <a class="home__social-link" href="#"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+            </li>
+          </ul>
+
+          <div class="home__info">
+            <h1 class="home__title">
+              ¡Hola! soy Jabid Sierra <br />
+            </h1>
+            <p class="home__description">
+              Una persona apasionada por la programación con las mejores ideas a la disposición de la innovación y el desarrollo.
+            </p>
+          </div>
+
+          <div class="home__buttons">
+            <button class="btn btn--primary" type="button">Descarga CV</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <h2 data-aos="flip-right" class="section__title">Sobre mí</h2>
+
+        <div class="about__container grid--container">
+          <p data-aos="fade-right" class="about__description">
+            Mi nombre es Jabid Sierra Guzmán, un colombiano de 21 años con una gran pasión por los códigos. Actualmente estoy estudiando Desarrollo Web con énfasis en Back-end, además estudio ingeniería electrónica, por lo que tengo un amplio conocimiento en distintos lenguajes de programación. Me gusta mucho hacer parte de nuevos proyectos donde pueda aportar soluciones por medio de mis conocimientos y habilidades, disfruto mucho trabajar de forma colaborativa ya que esto aumenta exponencialmente el potencial de creatividad e innovación. Soy una persona con una gran capacidad de adaptación por lo que puedo acoplarme a cualquier proyecto y a las necesidades del mismo, me gusta mucho hacer parte de experiencias retantes que puedan enriquecer mi proceso de formación como un profesional íntegro y con capacidades nuevas y más desarrolladas día a día.
+          </p>
+
+          <div class="about__skills grid--container">
+            <div class="about__cards">
+              <!--Card 1 -->
+              <div data-aos="zoom-in" class="about__card">
+                <i class="bx bxl-html5"></i>
+
+                <h3 class="about__card-title">HTML5</h3>
+                <p>Diseño, maquetación de páginas web novedosas con semántica .</p>
+              </div>
+              <!--Card 2 -->
+              <div data-aos="zoom-in" class="about__card">
+                <i class="bx bxl-css3"></i>
+
+                <h3 class="about__card-title">CSS3</h3>
+                <p>Estilado en cascada de páginas web animadas.</p>
+              </div>
+              <!--Card 3 -->
+              <div data-aos="zoom-in" class="about__card">
+                <i class='bx bx-code-alt'></i>
+
+                <h3 class="about__card-title">Phyton</h3>
+                <p>Modelado de soluciones algorítmicas con metodología modular.</p>
+              </div>
+              <!--Card 4 -->
+              <div data-aos="zoom-in" class="about__card">
+                <i class='bx bx-code-block'></i>
+
+                <h3 class="about__card-title">C++</h3>
+                <p>Desarrollo de sistemas embebidos con OOP.</p>
+              </div>             
+              <!--Card 5 -->
+              <div data-aos="zoom-in" class="about__card">
+                <i class="bx bxl-javascript"></i>
+
+                <h3 class="about__card-title">JavaScript</h3>
+                <p>Programación de funcionalidades y componentes para tener páginas web más dinámicas.</p>
+              </div>
+
+              <div data-aos="zoom-in" class="about__card">
+                <i class='bx bxs-data'></i>
+
+                <h3 class="about__card-title">SQL</h3>
+                <p>Administración y diseño de bases de datos básicas por medio de sentencias SQL.</p>
+              </div>
+            </div>
+
+            <div class="about__tags">
+              <h3 class="about__tags-title">Habilidades</h3>
+              <div data-aos="zoom-in" class="about__tags-container">
+                <span class="about__tag">Responsable</span>
+                <span class="about__tag">Trabajo en equipo</span>
+                <span class="about__tag">Creativo</span>
+                <span class="about__tag">Puntual</span>
+                <span class="about__tag">Proactivo</span>
+                <span class="about__tag">Autodidacta</span>
+                <span class="about__tag">Resilente</span>
+                <span class="about__tag">Adaptativo </span>
+                <span class="about__tag">Sociable</span>
+                <span class="about__tag">Organizado</span>
+                <span class="about__tag">Creativo</span>
+                <span class="about__tag">Innovador</span>
+                <span class="about__tag">Respetuoso</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="section__title">Proyectos</h2>
+
+        <div  class="projects__container grid--container">
+          <div data-aos="fade-right" class="projects__project">
+            <div  class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/img/project1.jpg" alt="project 1" />
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Proyecto 1</h3>
+                <p class="projects__description">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <div data-aos="fade-down" class="projects__buttons">
+                  <button class="btn projects__button" type="button">
+                    VER DEMO
+                  </button>
+                  <button class="btn projects__button" type="button">
+                    Portafolio
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-left" class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/img/e-commerce-1606962.svg" alt="project 1" />
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Proyecto 2</h3>
+                <p class="projects__description">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <div dara-aos="fade-top" class="projects__buttons">
+                  <button class="btn projects__button" type="button">
+                    VER DEMO
+                  </button>
+                  <button class="btn projects__button" type="button">
+                    E-comerce
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <h2 class="section__title">Contacto</h2>
+
+        <div class="contact__container grid--container">
+          <div class="contact__info">
+            <h3 class="contact__info-title">Información de contacto</h3>
+            <p class="contact__info-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
+            <address class="contatc__info-data">
+              <div class="contact__info-item">
+                <i class='bx bxl-whatsapp'></i>
+
+                <span class="contact__info-number">
+                  <a
+                    href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto"
+                    target="_blank"
+                    >Enviar mensaje a WhatsApp</a
+                  >
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class="bx bx-phone"></i>
+
+                <span class="contact__info-number">
+                  <a href="tel:57-300-425-0056"> +57 3004250056 </a>
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class="bx bxs-envelope"></i>
+
+                <span class="contact__info-mail">
+                  <a id="mail" href="mailto:test@correo.com"> jabidjunior@gmail.com </a>
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class="bx bx-map"></i>
+
+                <span class="contact__info-map"> Bogotá, Colombia. </span>
+              </div>
+            </address>
+          </div>
+
+          <div class="contact__form">
+            <h3 class="contact__form-title">Enviar mensaje</h3>
+
+            <form id="form" class="contact__form-container">
+              <div class="contact__form-group">
+                <label for="name" class="contact__form-label">Nombre</label>
+                <input type="text" id="name" name="name" class="contact__form-input" />
+              </div>
+
+              <div class="contact__form-group">
+                <label for="subject" class="contact__form-label">Asunto</label>
+                <input type="text" id="subject" name="subject" class="contact__form-input" />
+              </div>
+
+              <div class="contact__form-group">
+                <label for="message" class="contact__form-label">Mensaje</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  cols="30"
+                  rows="10"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn contact__form-button">
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="footer__container grid--container">
+        <div class="footer__info">
+          <h3 class="footer__title">Jabid Sierra Guzmán</h3>
+          <p class="footer__description">
+            Una persona apasionada por la programación con las mejores ideas a la disposición de la innovación y el desarrollo
+          </p>
+        </div>
+
+        <div class="footer__social">
+          <h3 class="footer__title">Redes Sociales</h3>
+
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><i class="bx bxl-linkedin" ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">&copy; 2023, Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+      const formulario = document.querySelector('#form')
+      const sendForm = document.querySelector('#mail')
+
+      formulario.addEventListener('submit', handleSubmit)
+
+      function handleSubmit(e) {
+        e.preventDefault()
+        const form = new FormData(this)
+        sendForm.setAttribute('href', `mailto:test@correo.com?subject=${form.get('name')} - ${form.get('subject')}&body=${form.get('message')}`)
+        sendForm.click()
+      }
+    </script>
+    
+  </body>
+</html>
